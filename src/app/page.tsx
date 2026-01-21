@@ -18,11 +18,12 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 export default function LandingPage() {
+  // FILTER: Menampilkan produk Gomilk dan Hitawa 200gr secara spesifik
   const featuredProducts = PRODUCTS.filter(
-    (p) => p.id === "gomilk" || p.id === "madu-bariklana"
+    (p) => p.id === "gomilk" || p.id === "bariklanahitawa200gr"
   );
 
-  // Daftar Gambar Testimoni dari folder public Anda (.jpg)
+  // Daftar Gambar Testimoni Lengkap (.jpg)
   const testimonialImages = [
     "/testimoni-1.jpg", "/testimoni-2.jpg", "/testimoni-3.jpg", 
     "/testimoni-4.jpg", "/testimoni-5.jpg", "/testimoni-6.jpg", 
@@ -164,6 +165,36 @@ export default function LandingPage() {
                 />
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Floating Text Testimonials */}
+        <div className="max-w-6xl mx-auto px-6 mt-20 grid md:grid-cols-2 gap-8">
+          <div className="bg-green-50/50 p-10 rounded-[2.5rem] border border-green-100 relative group hover:bg-green-50 transition-colors">
+            <Quote className="text-green-200 absolute top-8 right-8 group-hover:scale-110 transition-transform" size={48} />
+            <p className="relative z-10 italic text-slate-700 leading-relaxed mb-6 font-medium">
+              "Semenjak minum Gomilk, asam lambung saya jarang kumat dan badan terasa lebih ringan."
+            </p>
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-md">S</div>
+              <div>
+                <p className="font-bold text-slate-800">Ibu Sari</p>
+                <p className="text-xs text-slate-500">Pelanggan Setia - Jakarta</p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-amber-50/50 p-10 rounded-[2.5rem] border border-amber-100 relative group hover:bg-amber-50 transition-colors">
+            <Quote className="text-amber-200 absolute top-8 right-8 group-hover:scale-110 transition-transform" size={48} />
+            <p className="relative z-10 italic text-slate-700 leading-relaxed mb-6 font-medium">
+              "Hitawa jadi teman setia setiap pagi. Pegal-pegal hilang, kerja jadi lebih semangat!"
+            </p>
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-md">A</div>
+              <div>
+                <p className="font-bold text-slate-800">Bpk. Ahmad</p>
+                <p className="text-xs text-slate-500">Pekerja Lapangan - Wonogiri</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
