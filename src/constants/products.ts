@@ -84,6 +84,144 @@ export const PRODUCTS: Product[] = [
     stock: 100,
     waLink: `https://wa.me/${DISTRIBUTOR_INFO.phone}?text=Order+Hitawa`
   },
+  {
+    id: "bariklanagomilkcereal",
+    name: "BARIKLANA GOMILK CEREAL",
+    slug: "bariklana-gomilk-cereal",
+    price: 95000,
+    category: "Susu",
+    tagline: "Sarapan Bergizi dengan Vitamin Lengkap Untuk Lambung Lebih Sehat",
+    description: "Gomilk Cereal Pilihan Sarapan Bergizi Sempurna Untuk Memulai Hari Anda! Dengan nutrisi lengkap yang dibutuhkan tubuh memberikan energi sepanjang hari. Produk ini dirancang untuk mendukung kesehatan pencernaan, menjaga kestabilan energi, dan memperkuat sistem kekebalan tubuh, sehingga sangat cocok untuk sarapan yang sehat, praktis, dan kaya manfaat. Terbuat dari kombinasi bahan alami seperti susu kambing bubuk, pati garut, psyllium husk, kelor, sereal, dan gula aren.",
+    image: "/bariklana-gomilk-cereal.png",
+    benefits: [
+      "Mengatsi asam lambung",
+      "Mecukupi kebutuhan serat harian",
+      "Memperbaiki sistem pencernaan",
+      "Memberikan energi yang than lama",
+      "Meningkatkan isistem imun tubuh",
+      "Memebantu mengontrol kadar gula darah",
+      "Kaya nutrisi & vitamin",
+      "Baik untuk mata, jantung, hati, kulit, dna tulang menjadi sehat",
+      "Bagus untuk pertumbuhan janin & melancarkan ASI",
+      "Cocok untuk srapan sehat, praktis dan program diet"
+    ],
+    advantages: [
+      "100% bahan alami tanpa bahan pengawet atau pemanis buatan",
+      "Sarapan sehat yang aman untuk lambung kaya serat, vitamin, dan mineral untuk mendukung gaya hidup sehat",
+      "Membantu memulai hari dengan energi yang cukup dan mendukung pencernaan yang sehat"
+    ],
+    stock: 100,
+    waLink: `https://wa.me/${DISTRIBUTOR_INFO.phone}?text=Order+Hitawa`
+  },
+  {
+    id: "bariklanahitawasachet1kg",
+    name: "BARIKLANA HITAWA SACHET 1kg",
+    slug: "bariklana-hitawa-sachet-1kg",
+    price: 275000,
+    category: "Susu",
+    tagline: "Susu Kambing Etawa Plus Jahe",
+    description: "Susu Untuk Sendi dan Tulang Kuat! Hitawa adalah formulasi dari susu kambing etawa terbaik yang dikombinasikan dengan ekstrak jahe merah, temulawak dan kunyit, kayu manis, dan madu. Kandungan herbalnya memiliki khasiat yang sudah dikenal masyarakat untuk terpapi berbagai macam penyakit degenaratif. Dari hasil penelitian para ahli dan bukti sejarah membuktikan bahwa susu kambing etawa mempunyai kelebihan dibanding susu hewan lainnya.",
+    image: "/bariklana-hitawa-sachet-1kg.png",
+    benefits: [
+      "Menjaga kesehatan tulang, otot dan sendi",
+      "Membantu mengatasi asam urat, nyeri sendi, reumatik, pegal linu dan masalah tulang lainnya",
+      "Membantu menurunkan kadar klolesterol jahat",
+      "Membantu mengatasi maag kronis",
+      "Meningkatkan daya tahan dan kekebalan tubuh",
+      "Aman bagi penderita diabetes",
+      "Menyetabilkan tekanan darah",
+      "Menambah vitalitas"
+    ],
+    advantages: [
+      "Jahe melancarkan pencernaan",
+      "Temulawak sebagai antioksidan yang kuat",
+      "Kunyit sebagai anti inflamasi",
+      "Kaya akan kalsium",
+      "Tekstur lembut dan mudah diserap oleh tubuh",
+      "Rasanya gurih dan tidak bau prengus (amis) kambing",
+      "Sudah lolos uji BPOM dna Halal MUI",
+      "Dapat dikonsumsi mulai anak usia 2 tahun hingga lansia"
+    ],
+    stock: 100,
+    waLink: `https://wa.me/${DISTRIBUTOR_INFO.phone}?text=Order+Hitawa`
+  },
+  {
+    id: "bariklanagotamile200gr",
+    name: "BARIKLANA GOTAMILE 200gr",
+    slug: "bariklana-gotamile-200gr",
+    price: 77000,
+    category: "Susu",
+    tagline: "Susu Kambing Etawa Plus Herbal Untuk Stamina Pria",
+    description: "Laki-laki Siap Penuh Energi Sepanjang Hari (Roso-roso)! Susu etaw yang dirancang khusus dengan gingseng, madu, daun kelor, gula aren. Bermanfaat meningkatkan kesehatan dan stamina pria. Susu etawa dikenal kaya akan nutrisi, termasuk protein tinggi, kalsium, dan vitamin. Sementara itu, ginseng telah terbukti dapat meningkatkan energi dan daya tahan fisik.",
+    image: "/bariklana-gotamile-200gr.png",
+    benefits: [
+      "Meningkatkan energi dan stamina pria",
+      "Mendukung kesehatan seksual",
+      "Menjaga kesehatan prostat",
+      "Meningkatkan kesehatan tulang",
+      "Mengatasi kekurangan zat besi",
+      "Menjaga stabilitas gula darah"
+    ],
+    advantages: [
+      "Sumber energi",
+      "Tinggi kalsium & fosfor",
+      "Kaya protein",
+      "Penambah stamina",
+      "Diperkaya 10 vitamin & mineral"
+    ],
+    stock: 100,
+    waLink: `https://wa.me/${DISTRIBUTOR_INFO.phone}?text=Order+Hitawa`
+  },
+  {
+    id: "bariklanafemile200gr",
+    name: "BARIKLANA FEMILE 200gr",
+    slug: "bariklana-femile-200gr",
+    price: 77000,
+    category: "Susu",
+    tagline: "Susu Kambing Etawa Plus Kolagen",
+    description: "Susu khusus yang dirancang untuk mendukung kesehatan dan stamina wanita. Terbuat dari bahan-bahan berkualitas seperti susu etawa, madu, L-Glutathione, kolagen, dan ikan gabus. Femile memberikan manfaat kesehatan yang luar biasa. Nutrisi dalam susu Femile membantu meningkatkan kebutuhan energi, seperti ibu hamil atau wanita yang aktif secara fisik Dengan L-Glutathione plus Kolagen membantu merawat kulit dari dalam tubuh, menjaga elastisitas dan membantu membuat kulit lebih halus dan kencang",
+    image: "/bariklana-femile-200gr.png",
+    benefits: [
+      "Membantu membuat kulit tampak lebih cerah & glowing",
+      "Dilengkapi dengan kolagen dan L-Glutathione",
+      "Tinggi kalsium",
+      "Rendah Lemak"
+    ],
+    advantages: [
+      "Memiliki kandungan Omega 3 dan Omega 6",
+      "Dilengkapi dengan kolagen dan L-Glutathione",
+      "Tinggi kalsium",
+      "Rendah Lemak"
+    ],
+    stock: 100,
+    waLink: `https://wa.me/${DISTRIBUTOR_INFO.phone}?text=Order+Hitawa`
+  },
+    {
+    id: "bariklanasoyagi200gr",
+    name: "BARIKLANA SOYAGI 200gr",
+    slug: "bariklana-soyagi-200gr",
+    price: 59000,
+    category: "Susu",
+    tagline: "Susu Kedelai Hitam Plus Teman Diet Sehat",
+    description: "Pertama di Indonesia Susu kedelai Soyagi(Sari kacang kedelai) adalah minuman yang dibuat dari kacang kedelai pilihan berkualitas, ginseng jawa, kulit manggis, madu, propolis, dan royal jelly yang diproses dengan teknologi canggih dan higienis menjadikan Soyagi sari kedelai yang terjaga kandungan gizinya dan ampasnya sedikit. Teksturnya lembut, dan tidak langu. Kaya akan kandungan protein Nabati, Isoflavon, asam amino esensial, vitamin, dan mineral.",
+    image: "/bariklana-soyagi-200gr.png",
+    benefits: [
+      "Membantu memelihara kesehatan tubuh",
+      "Membantu mengurangi lemak tubuh",
+      "Menurunkan berat badan",
+      "Membantu memelihara kesehatan kulit dan mencegah penuaan dini",
+      "Meningkatkan stamina",
+      "Melancarkan BAB",
+      "Dan lain-lain"
+    ],
+    advantages: [
+      "100 kalori dan berbagai nutrisi lain, seperti protein, karbohidrat, lemak, dan serat",
+      "Beragam kandungan vitamin dan mineral pun terdapat di dalamnya, seperti vitamin A, vitamin B, vitamin D, vitamin E, kalsium, kalium, zat besi, dan fosfor",
+      "Susu kedelai juga mengandung antioksidan, seperti flavonoid dan isoflavon"
+    ],
+    stock: 100,
+    waLink: `https://wa.me/${DISTRIBUTOR_INFO.phone}?text=Order+Hitawa`
+  },
   
   // MADU
   {
@@ -316,35 +454,6 @@ export const PRODUCTS: Product[] = [
       "Hemat 2-3 bulan pemakaian",
       "Aman untuk ibu hamil & menyusui",
       "Bisa diaplikasi untuk ketiak, kaki, sepatu, dan helm"
-    ],
-    stock: 50,
-    waLink: `https://wa.me/${DISTRIBUTOR_INFO.phone}?text=Order+Madu`
-  },
-  {
-    id: "bariklanamagnesium60ml",
-    name: "BARIKLANA MAGNESIUM 60ml",
-    slug: "bariklana-magnesium-60ml",
-    price: 51000,
-    category: "Bodycare",
-    tagline: "Lotion Terapi/Pijat Multifungsi",
-    description: "Magnesium adalah lotion terapi/pijat multifungsi, dengan kandungan utama MAgnesium dan herbal-herbal alami lainnya. Telah diformulasikan khusus untuk menjawab semua keluahan berbagai macam penyakit. Dengan cara Transdermal (merupakan salah satu bentuk sistem penghantaran obat dengan cara ditempel melalui kulit) yang kami terpakna pada lotion BARIKLANA MAGNESIUM memudahkan lebih terserap oleh tubuh sehingga efektif dan effisien langsung ke titik sakit.",
-    image: "/bariklana-magnesium.png",
-    benefits: [
-      "Mengurangi rasa capek dan pegal pada tubuh",
-      "Meredakan sakit kepala",
-      "Mengobati keseleo/bengkak saat beraktivitas",
-      "Membantu mengibati nyeri sendi, nyeri otot, dan lain-lain",
-      "Cocok untuk meredakan gejala demam, batuk dan pilek",
-      "Mengobati gatal-gatal dan eksim",
-      "Membantu mengatasi masalah hipertensi yang bisa datang kapan jasa",
-      "Meredakan Disminore/nyeri haid",
-      "Disfungsi ereksi yang memebuat rumah tangga kurang harmonis",
-      "Membantu mengatasi masalah susah tidur (insomnia)",
-      "Membantu meredakan asam urat, asam lambung, dll"
-    ],
-    advantages: [
-      "Sebagai anti nyamuk",
-      "Aman untuk terapi stroke dan syaraf kejepit"
     ],
     stock: 50,
     waLink: `https://wa.me/${DISTRIBUTOR_INFO.phone}?text=Order+Madu`
